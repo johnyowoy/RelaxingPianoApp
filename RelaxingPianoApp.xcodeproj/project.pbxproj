@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5261793C24A1D2100006B598 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261793B24A1D2100006B598 /* HomeViewController.swift */; };
+		5261793E24A249590006B598 /* ListPianoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261793D24A249590006B598 /* ListPianoTableViewController.swift */; };
+		5261794024A2563C0006B598 /* ListPianoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5261793F24A2563C0006B598 /* ListPianoTableViewCell.swift */; };
 		52AE490424A0EED50085009F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE490324A0EED50085009F /* AppDelegate.swift */; };
 		52AE490624A0EED50085009F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE490524A0EED50085009F /* SceneDelegate.swift */; };
-		52AE490824A0EED50085009F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AE490724A0EED50085009F /* ViewController.swift */; };
 		52AE490B24A0EED50085009F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AE490924A0EED50085009F /* Main.storyboard */; };
 		52AE490D24A0EED90085009F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AE490C24A0EED90085009F /* Assets.xcassets */; };
 		52AE491024A0EED90085009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AE490E24A0EED90085009F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5261793B24A1D2100006B598 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5261793D24A249590006B598 /* ListPianoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPianoTableViewController.swift; sourceTree = "<group>"; };
+		5261793F24A2563C0006B598 /* ListPianoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPianoTableViewCell.swift; sourceTree = "<group>"; };
 		52AE490024A0EED50085009F /* RelaxingPianoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelaxingPianoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AE490324A0EED50085009F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52AE490524A0EED50085009F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52AE490724A0EED50085009F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52AE490A24A0EED50085009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52AE490C24A0EED90085009F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AE490F24A0EED90085009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				52AE490324A0EED50085009F /* AppDelegate.swift */,
 				52AE490524A0EED50085009F /* SceneDelegate.swift */,
-				52AE490724A0EED50085009F /* ViewController.swift */,
+				5261793B24A1D2100006B598 /* HomeViewController.swift */,
+				5261793D24A249590006B598 /* ListPianoTableViewController.swift */,
+				5261793F24A2563C0006B598 /* ListPianoTableViewCell.swift */,
 				52AE490924A0EED50085009F /* Main.storyboard */,
 				52AE490C24A0EED90085009F /* Assets.xcassets */,
 				52AE490E24A0EED90085009F /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AE490824A0EED50085009F /* ViewController.swift in Sources */,
 				52AE490424A0EED50085009F /* AppDelegate.swift in Sources */,
 				52AE490624A0EED50085009F /* SceneDelegate.swift in Sources */,
+				5261793C24A1D2100006B598 /* HomeViewController.swift in Sources */,
+				5261793E24A249590006B598 /* ListPianoTableViewController.swift in Sources */,
+				5261794024A2563C0006B598 /* ListPianoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
