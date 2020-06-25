@@ -15,6 +15,8 @@
 		52AE490B24A0EED50085009F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AE490924A0EED50085009F /* Main.storyboard */; };
 		52AE490D24A0EED90085009F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AE490C24A0EED90085009F /* Assets.xcassets */; };
 		52AE491024A0EED90085009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AE490E24A0EED90085009F /* LaunchScreen.storyboard */; };
+		52B9BE8E24A48F12009E7C14 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B9BE8D24A48F12009E7C14 /* Music.swift */; };
+		52B9BE9524A512A8009E7C14 /* UIColor_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B9BE9424A512A8009E7C14 /* UIColor_Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		52AE490C24A0EED90085009F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AE490F24A0EED90085009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52AE491124A0EED90085009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B9BE8D24A48F12009E7C14 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		52B9BE9424A512A8009E7C14 /* UIColor_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +64,59 @@
 		52AE490224A0EED50085009F /* RelaxingPianoApp */ = {
 			isa = PBXGroup;
 			children = (
+				52B9BE9224A4A2C0009E7C14 /* Storyboard */,
+				52B9BE8F24A4A24A009E7C14 /* Model */,
+				52B9BE9024A4A272009E7C14 /* View */,
+				52B9BE9124A4A280009E7C14 /* Controller */,
+				52B9BE9324A5127B009E7C14 /* Extensions */,
 				52AE490324A0EED50085009F /* AppDelegate.swift */,
 				52AE490524A0EED50085009F /* SceneDelegate.swift */,
-				5261793B24A1D2100006B598 /* HomeViewController.swift */,
-				5261793D24A249590006B598 /* ListPianoTableViewController.swift */,
-				5261793F24A2563C0006B598 /* ListPianoTableViewCell.swift */,
-				52AE490924A0EED50085009F /* Main.storyboard */,
 				52AE490C24A0EED90085009F /* Assets.xcassets */,
 				52AE490E24A0EED90085009F /* LaunchScreen.storyboard */,
 				52AE491124A0EED90085009F /* Info.plist */,
 			);
 			path = RelaxingPianoApp;
+			sourceTree = "<group>";
+		};
+		52B9BE8F24A4A24A009E7C14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52B9BE8D24A48F12009E7C14 /* Music.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52B9BE9024A4A272009E7C14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5261793F24A2563C0006B598 /* ListPianoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52B9BE9124A4A280009E7C14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5261793D24A249590006B598 /* ListPianoTableViewController.swift */,
+				5261793B24A1D2100006B598 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52B9BE9224A4A2C0009E7C14 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				52AE490924A0EED50085009F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		52B9BE9324A5127B009E7C14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52B9BE9424A512A8009E7C14 /* UIColor_Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +195,8 @@
 				5261793C24A1D2100006B598 /* HomeViewController.swift in Sources */,
 				5261793E24A249590006B598 /* ListPianoTableViewController.swift in Sources */,
 				5261794024A2563C0006B598 /* ListPianoTableViewCell.swift in Sources */,
+				52B9BE8E24A48F12009E7C14 /* Music.swift in Sources */,
+				52B9BE9524A512A8009E7C14 /* UIColor_Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
